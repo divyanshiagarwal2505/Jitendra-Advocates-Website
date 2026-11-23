@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#142129"/>
+      <stop offset="60%" stop-color="#1d303a"/>
+      <stop offset="100%" stop-color="#2a3f4a"/>
+    </linearGradient>
+    <linearGradient id="domeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b89d74"/>
+      <stop offset="50%" stop-color="#ddcaa5"/>
+      <stop offset="100%" stop-color="#9d835e"/>
+    </linearGradient>
+    <linearGradient id="sandstoneGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d6c6ad"/>
+      <stop offset="100%" stop-color="#b39f82"/>
+    </linearGradient>
+    <linearGradient id="columnGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e2d8c7"/>
+      <stop offset="40%" stop-color="#eee7db"/>
+      <stop offset="100%" stop-color="#bfaf97"/>
+    </linearGradient>
+    <linearGradient id="shadowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1920" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f1920" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="1000" height="700" fill="url(#skyGrad)"/>
+
+  <!-- Distant Trees and Landscape -->
+  <g fill="#1f343e" opacity="0.6">
+    <circle cx="80" cy="520" r="140"/>
+    <circle cx="210" cy="540" r="110"/>
+    <circle cx="790" cy="540" r="120"/>
+    <circle cx="920" cy="510" r="150"/>
+  </g>
+
+  <!-- Base Courtyard Plinth -->
+  <rect y="590" width="1000" height="110" fill="#1b2a33"/>
+  <rect x="50" y="570" width="900" height="20" fill="#695c4d"/>
+  <rect x="70" y="555" width="860" height="15" fill="#887965"/>
+  <rect x="90" y="540" width="820" height="15" fill="#a79782"/>
+
+  <!-- Main Court Building Wings (Left & Right) -->
+  <rect x="110" y="360" width="780" height="180" fill="url(#sandstoneGrad)"/>
+  
+  <!-- Architectural Cornice / Entablature Upper Wings -->
+  <rect x="95" y="340" width="810" height="20" fill="#93816a"/>
+  <rect x="85" y="325" width="830" height="15" fill="#c4b49d"/>
+
+  <!-- Balustrade parapet on wings -->
+  <g fill="#a29079">
+    <rect x="120" y="310" width="220" height="15"/>
+    <rect x="660" y="310" width="220" height="15"/>
+    <!-- Small baluster pillars -->
+    <rect x="130" y="298" width="10" height="12"/>
+    <rect x="155" y="298" width="10" height="12"/>
+    <rect x="180" y="298" width="10" height="12"/>
+    <rect x="205" y="298" width="10" height="12"/>
+    <rect x="230" y="298" width="10" height="12"/>
+    <rect x="255" y="298" width="10" height="12"/>
+    <rect x="280" y="298" width="10" height="12"/>
+    <rect x="305" y="298" width="10" height="12"/>
+    <rect x="330" y="298" width="10" height="12"/>
+
+    <rect x="665" y="298" width="10" height="12"/>
+    <rect x="690" y="298" width="10" height="12"/>
+    <rect x="715" y="298" width="10" height="12"/>
+    <rect x="740" y="298" width="10" height="12"/>
+    <rect x="765" y="298" width="10" height="12"/>
+    <rect x="790" y="298" width="10" height="12"/>
+    <rect x="815" y="298" width="10" height="12"/>
+    <rect x="840" y="298" width="10" height="12"/>
+    <rect x="865" y="298" width="10" height="12"/>
+  </g>
+
+  <!-- Wing Windows / Arches (Deep recessed court corridors) -->
+  <g fill="#21333d">
+    <!-- Left Wing Arches -->
+    <path d="M 140 440 A 18 18 0 0 1 176 440 V 520 H 140 Z"/>
+    <path d="M 200 440 A 18 18 0 0 1 236 440 V 520 H 200 Z"/>
+    <path d="M 260 440 A 18 18 0 0 1 296 440 V 520 H 260 Z"/>
+
+    <!-- Right Wing Arches -->
+    <path d="M 704 440 A 18 18 0 0 1 740 440 V 520 H 704 Z"/>
+    <path d="M 764 440 A 18 18 0 0 1 800 440 V 520 H 764 Z"/>
+    <path d="M 824 440 A 18 18 0 0 1 860 440 V 520 H 824 Z"/>
+
+    <!-- Upper Story Rectangular Windows -->
+    <rect x="142" y="375" width="32" height="38"/>
+    <rect x="202" y="375" width="32" height="38"/>
+    <rect x="262" y="375" width="32" height="38"/>
+    <rect x="706" y="375" width="32" height="38"/>
+    <rect x="766" y="375" width="32" height="38"/>
+    <rect x="826" y="375" width="32" height="38"/>
+  </g>
+
+  <!-- Wing Arch Frames -->
+  <g fill="none" stroke="#e0d5c1" stroke-width="3">
+    <path d="M 137 440 A 21 21 0 0 1 179 440 V 520"/>
+    <path d="M 197 440 A 21 21 0 0 1 239 440 V 520"/>
+    <path d="M 257 440 A 21 21 0 0 1 299 440 V 520"/>
+    <path d="M 701 440 A 21 21 0 0 1 743 440 V 520"/>
+    <path d="M 761 440 A 21 21 0 0 1 803 440 V 520"/>
+    <path d="M 821 440 A 21 21 0 0 1 863 440 V 520"/>
+  </g>
+
+  <!-- Central Court Dome (Indian High Court Stately Sandstone Dome & Finial) -->
+  <!-- Dome Drum -->
+  <rect x="420" y="210" width="160" height="40" fill="#a49179"/>
+  <rect x="405" y="240" width="190" height="15" fill="#88755f"/>
+  <!-- Drum Pillars -->
+  <g fill="#d8cbba">
+    <rect x="430" y="212" width="10" height="28"/>
+    <rect x="455" y="212" width="10" height="28"/>
+    <rect x="480" y="212" width="10" height="28"/>
+    <rect x="510" y="212" width="10" height="28"/>
+    <rect x="535" y="212" width="10" height="28"/>
+    <rect x="560" y="212" width="10" height="28"/>
+  </g>
+  <!-- Dome Structure -->
+  <path d="M 425 210 Q 500 95 575 210 Z" fill="url(#domeGrad)"/>
+  <!-- Dome Ribs -->
+  <path d="M 500 95 L 500 210" stroke="#8c775a" stroke-width="2"/>
+  <path d="M 500 95 Q 465 150 460 210" stroke="#8c775a" stroke-width="1.5" fill="none"/>
+  <path d="M 500 95 Q 535 150 540 210" stroke="#8c775a" stroke-width="1.5" fill="none"/>
+  <!-- Dome Finial / Kalash -->
+  <path d="M 495 95 L 500 65 L 505 95 Z" fill="#d9be8f"/>
+  <circle cx="500" cy="62" r="5" fill="#d9be8f"/>
+  <line x1="500" y1="57" x2="500" y2="45" stroke="#d9be8f" stroke-width="2"/>
+
+  <!-- Grand Central Portico (Front Facade) -->
+  <!-- Upper Central Wall -->
+  <rect x="330" y="255" width="340" height="285" fill="#cbbda7"/>
+
+  <!-- Pediment (Grand Classical Triangular Gabled Roof) -->
+  <polygon points="310,255 500,165 690,255" fill="url(#sandstoneGrad)"/>
+  <polygon points="325,252 500,172 675,252" fill="#84715b"/>
+  <!-- Pediment Tympanum Motif (Scales of Justice) -->
+  <g fill="#d8be8f" stroke="#d8be8f" stroke-width="1.5" transform="translate(500, 222) scale(0.65)">
+    <circle cx="0" cy="-22" r="3" fill="#d8be8f"/>
+    <line x1="0" y1="-20" x2="0" y2="15" stroke-width="3"/>
+    <line x1="-28" y1="-12" x2="28" y2="-12" stroke-width="2.5"/>
+    <line x1="-28" y1="-12" x2="-38" y2="2"/>
+    <line x1="-28" y1="-12" x2="-18" y2="2"/>
+    <line x1="28" y1="-12" x2="18" y2="2"/>
+    <line x1="28" y1="-12" x2="38" y2="2"/>
+    <path d="M -40 2 Q -28 10 -16 2 Z" fill="#d8be8f"/>
+    <path d="M 16 2 Q 28 10 40 2 Z" fill="#d8be8f"/>
+    <rect x="-12" y="15" width="24" height="4" fill="#d8be8f"/>
+  </g>
+
+  <!-- Entablature below Pediment -->
+  <rect x="315" y="255" width="370" height="25" fill="#e5dcce"/>
+  <rect x="325" y="280" width="350" height="15" fill="#9d8972"/>
+
+  <!-- Recessed Main Portico Shadow -->
+  <rect x="340" y="295" width="320" height="245" fill="url(#shadowGrad)"/>
+
+  <!-- Grand Central Judicial Court Entrance Doors & Arches -->
+  <path d="M 470 425 A 30 30 0 0 1 530 425 V 540 H 470 Z" fill="#152026"/>
+  <path d="M 466 425 A 34 34 0 0 1 534 425 V 540" fill="none" stroke="#d6c3a8" stroke-width="3"/>
+  <rect x="498" y="425" width="4" height="115" fill="#2d424e"/>
+
+  <!-- Grand Classical Pillars / Colonnade (6 Stately Columns) -->
+  <!-- Column 1 -->
+  <rect x="348" y="295" width="28" height="245" fill="url(#columnGrad)"/>
+  <rect x="342" y="290" width="40" height="8" fill="#e8dfd1"/>
+  <rect x="344" y="535" width="36" height="8" fill="#a4937d"/>
+  
+  <!-- Column 2 -->
+  <rect x="408" y="295" width="28" height="245" fill="url(#columnGrad)"/>
+  <rect x="402" y="290" width="40" height="8" fill="#e8dfd1"/>
+  <rect x="404" y="535" width="36" height="8" fill="#a4937d"/>
+
+  <!-- Column 3 -->
+  <rect x="468" y="295" width="28" height="245" fill="url(#columnGrad)"/>
+  <rect x="462" y="290" width="40" height="8" fill="#e8dfd1"/>
+  <rect x="464" y="535" width="36" height="8" fill="#a4937d"/>
+
+  <!-- Column 4 -->
+  <rect x="504" y="295" width="28" height="245" fill="url(#columnGrad)"/>
+  <rect x="498" y="290" width="40" height="8" fill="#e8dfd1"/>
+  <rect x="500" y="535" width="36" height="8" fill="#a4937d"/>
+
+  <!-- Column 5 -->
+  <rect x="564" y="295" width="28" height="245" fill="url(#columnGrad)"/>
+  <rect x="558" y="290" width="40" height="8" fill="#e8dfd1"/>
+  <rect x="560" y="535" width="36" height="8" fill="#a4937d"/>
+
+  <!-- Column 6 -->
+  <rect x="624" y="295" width="28" height="245" fill="url(#columnGrad)"/>
+  <rect x="618" y="290" width="40" height="8" fill="#e8dfd1"/>
+  <rect x="620" y="535" width="36" height="8" fill="#a4937d"/>
+
+  <!-- Grand Central Steps (Plinth Projection) -->
+  <polygon points="320,540 680,540 705,585 295,585" fill="#c7b9a2"/>
+  <line x1="315" y1="550" x2="685" y2="550" stroke="#9e8d77" stroke-width="2"/>
+  <line x1="310" y1="560" x2="690" y2="560" stroke="#9e8d77" stroke-width="2"/>
+  <line x1="305" y1="570" x2="695" y2="570" stroke="#9e8d77" stroke-width="2"/>
+  <line x1="300" y1="580" x2="700" y2="580" stroke="#9e8d77" stroke-width="2"/>
+
+  <!-- Foreground Courtyard Ground -->
+  <rect y="585" width="1000" height="115" fill="#132027"/>
+  <rect y="585" width="1000" height="12" fill="#574b3d"/>
+
+  <!-- Warm Atmospheric Vignette Overlay -->
+  <rect width="1000" height="700" fill="url(#skyGrad)" opacity="0.15" style="mix-blend-mode: multiply;"/>
+</svg>
